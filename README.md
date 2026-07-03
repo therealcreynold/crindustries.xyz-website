@@ -42,7 +42,7 @@ Pages config: **Settings → Pages → Build and deployment → Deploy from a br
 ## DNS (managed at Namecheap — BasicDNS)
 
 Set at **Domain List → Manage → Advanced DNS → Host Records**.
-**Leave the existing Google Workspace MX records untouched** (they run `chris@crindustries.xyz`).
+**Leave the existing Google Workspace MX records untouched** (they run `info@crindustries.xyz`).
 
 | Type  | Host | Value                     |
 |-------|------|---------------------------|
