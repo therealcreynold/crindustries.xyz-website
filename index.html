@@ -4,113 +4,140 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CR Industries LLC — Independent app studio for Apple platforms</title>
-    <meta name="description" content="CR Industries LLC is an independent software studio building thoughtful, privacy-respecting apps for iPhone, iPad, and Mac. Makers of WhereIsIt package tracking.">
+    <meta name="description" content="CR Industries LLC is a small, independent software studio building fast, beautiful, privacy-first apps for iPhone, iPad, and Mac. Makers of WhereIsIt package tracking.">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
     <link rel="canonical" href="https://crindustries.xyz/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="CR Industries LLC">
-    <meta property="og:description" content="An independent software studio building privacy-respecting apps for Apple platforms. Makers of WhereIsIt.">
+    <meta property="og:title" content="CR Industries LLC — Independent app studio">
+    <meta property="og:description" content="A tiny indie software studio building fast, privacy-first apps for Apple platforms. Makers of WhereIsIt.">
     <meta property="og:url" content="https://crindustries.xyz/">
+    <meta name="theme-color" content="#07070d">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <nav>
         <a href="index.html" class="nav-logo"><span class="mark">CR</span> CR Industries</a>
         <div class="nav-right">
-            <a href="index.html#products">Products</a>
+            <a href="index.html#products" class="nav-hide">Products</a>
+            <a href="index.html#studio" class="nav-hide">Studio</a>
             <a href="support.html">Support</a>
             <a href="index.html#contact" class="nav-cta">Contact</a>
         </div>
     </nav>
 
     <!-- Hero -->
-    <header class="hero">
-        <span class="eyebrow">CR Industries LLC</span>
-        <h1>Software that respects the people who use it.</h1>
-        <p class="lede">We're an independent studio building thoughtful, privacy-first apps for iPhone, iPad, and Mac — designed to feel right at home on Apple platforms.</p>
+    <header class="hero wrap">
+        <span class="eyebrow"><span class="dot"></span> Independent app studio · Est. 2026</span>
+        <h1>We build <span class="grad-text">ridiculously good</span> apps for Apple platforms.</h1>
+        <p class="lede">CR Industries is a tiny, independent software studio with one big obsession: fast, beautiful, privacy-first apps that earn a permanent spot on your home screen.</p>
         <div class="hero-actions">
-            <a href="index.html#products" class="btn-primary">See our apps</a>
-            <a href="index.html#contact" class="btn-secondary">Get in touch</a>
+            <a href="index.html#products" class="btn btn-grad">Explore our apps <span class="arrow">→</span></a>
+            <a href="index.html#contact" class="btn btn-ghost">Say hello</a>
         </div>
     </header>
 
-    <!-- About / values -->
-    <section class="section divider" id="about">
-        <div class="section-head">
-            <h2>A small studio with a simple standard.</h2>
-            <p>CR Industries LLC designs and ships consumer apps end to end — from the first sketch to the App Store. We keep our teams small, our scope focused, and our users' data in their hands.</p>
+    <!-- Marquee -->
+    <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+            <span>Package tracking</span><span>Privacy-first</span><span>On-device AI</span><span>iOS · iPadOS · macOS</span><span>1,600+ carriers</span><span>Indie &amp; proud</span><span>No dark patterns</span>
+            <span>Package tracking</span><span>Privacy-first</span><span>On-device AI</span><span>iOS · iPadOS · macOS</span><span>1,600+ carriers</span><span>Indie &amp; proud</span><span>No dark patterns</span>
+        </div>
+    </div>
+
+    <!-- Studio / how we build -->
+    <section class="section wrap" id="studio">
+        <div class="section-head reveal">
+            <div class="kicker">How we build</div>
+            <h2>Small studio. Big swings.</h2>
+            <p>No committees, no bloat, no roadmap held hostage by investors. Just carefully made software that respects your time and your data.</p>
         </div>
         <div class="values">
-            <div class="value">
-                <h3>Privacy by default</h3>
-                <p>Your data stays on your device wherever possible. We collect the minimum required to make an app work — and nothing we don't need.</p>
+            <div class="card reveal">
+                <div class="ico">⚡</div>
+                <h3>Obsessively fast</h3>
+                <p>Native apps tuned until they feel instant. No jank, no spinners you'll remember, no waiting on someone else's server.</p>
             </div>
-            <div class="value">
-                <h3>Built for Apple platforms</h3>
-                <p>Native apps that follow Apple's design and privacy guidelines, with iCloud sync, on-device intelligence, and the polish people expect.</p>
+            <div class="card reveal">
+                <div class="ico">🛡️</div>
+                <h3>Privacy is the product</h3>
+                <p>Your data stays on your device by default. We collect the bare minimum to make an app work — and sell absolutely none of it, ever.</p>
             </div>
-            <div class="value">
-                <h3>Made to last</h3>
-                <p>We support what we ship. Real people answer support email, and we keep our apps updated for the long run.</p>
+            <div class="card reveal">
+                <div class="ico">◎</div>
+                <h3>Built to be kept</h3>
+                <p>We ship, then we stick around. Real humans answer support, and we keep our apps sharp for the long haul.</p>
             </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="section wrap" style="padding-top:0;">
+        <div class="stats reveal">
+            <div class="stat"><div class="num grad-text">1,600+</div><div class="lbl">Carriers supported</div></div>
+            <div class="stat"><div class="num grad-text">3</div><div class="lbl">Apple platforms</div></div>
+            <div class="stat"><div class="num grad-text">0</div><div class="lbl">Ads &amp; trackers</div></div>
+            <div class="stat"><div class="num grad-text">100%</div><div class="lbl">On-device by default</div></div>
         </div>
     </section>
 
     <!-- Products -->
-    <section class="section divider" id="products">
-        <div class="section-head">
-            <h2>Our apps</h2>
-            <p>The products we build and support today.</p>
+    <section class="section wrap" id="products">
+        <div class="section-head reveal">
+            <div class="kicker">Our apps</div>
+            <h2>What we're shipping.</h2>
         </div>
 
-        <article class="product">
+        <article class="product reveal">
             <div class="product-text">
-                <span class="product-badge">WhereIsIt</span>
-                <h3>Every package. One app.</h3>
-                <p>WhereIsIt tracks deliveries from 1,600+ global carriers in a single place — scan a shipping label with your camera, import confirmations from Gmail (read-only, on device), watch everything on a live map, and get smart delivery predictions.</p>
-                <ul class="product-meta">
+                <span class="pill">◆ WhereIsIt · Now on iOS</span>
+                <h3>Every package. One <span class="grad-text">ridiculously smart</span> app.</h3>
+                <p>WhereIsIt tracks deliveries from 1,600+ global carriers in one place — snap a shipping label with your camera, pull confirmations straight from Gmail (read-only, on device), watch it all move on a live map, and get delivery predictions smarter than the carrier's.</p>
+                <ul class="chips">
                     <li>iPhone · iPad · Mac</li>
                     <li>1,600+ carriers</li>
                     <li>Camera scan</li>
+                    <li>Gmail import</li>
                     <li>On-device privacy</li>
                     <li>iCloud sync</li>
                 </ul>
                 <div class="product-actions">
-                    <a href="https://whereisit.now" class="btn-primary" rel="noopener">Visit whereisit.now</a>
-                    <a href="https://whereisit.now/support.html" class="btn-secondary" rel="noopener">App support</a>
+                    <a href="https://whereisit.now" class="btn btn-grad" rel="noopener">Visit whereisit.now <span class="arrow">→</span></a>
+                    <a href="https://whereisit.now/support.html" class="btn btn-ghost" rel="noopener">App support</a>
                 </div>
             </div>
-            <div class="product-visual">
-                <div class="phone-frame">
-                    <img src="assets/whereisit-list.png" alt="WhereIsIt package list on iPhone" loading="lazy">
-                </div>
-                <div class="phone-frame phone-behind">
-                    <img src="assets/whereisit-scan.png" alt="WhereIsIt camera scanning a shipping label" loading="lazy">
-                </div>
+            <div class="phones">
+                <div class="phone back"><div><img src="assets/whereisit-scan.png" alt="WhereIsIt scanning a shipping label" loading="lazy"></div></div>
+                <div class="phone front"><div><img src="assets/whereisit-list.png" alt="WhereIsIt package list on iPhone" loading="lazy"></div></div>
             </div>
         </article>
 
-        <p class="more-products">More apps are in the works. Follow along at <a href="index.html#contact" style="color:var(--accent);text-decoration:none;">get in touch</a>.</p>
+        <p class="more">More apps are in the lab. Want a heads-up when they land? <a href="index.html#contact">Get in touch →</a></p>
     </section>
 
     <!-- Contact -->
-    <section class="contact-band divider" id="contact">
-        <h2>Get in touch</h2>
-        <p>Questions, partnerships, press, or anything else — we read every message. CR Industries LLC is an independent software company based in the United States.</p>
-        <a href="mailto:info@crindustries.xyz" class="contact-email">info@crindustries.xyz</a>
+    <section class="section wrap contact" id="contact">
+        <div class="contact-inner reveal">
+            <h2>Let's build <span class="grad-text">something.</span></h2>
+            <p>Partnerships, press, feedback, or just want to say hi? We read every message. CR Industries LLC is an independent software company based in the United States.</p>
+            <a href="mailto:info@crindustries.xyz" class="email-btn">✉ info@crindustries.xyz</a>
+        </div>
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer class="wrap">
         <div class="footer-grid">
             <div class="footer-col">
-                <div class="footer-logo">CR Industries LLC</div>
-                <p class="footer-tagline">An independent studio building privacy-respecting apps for Apple platforms.</p>
+                <div class="footer-logo"><span class="mark" style="width:28px;height:28px;">CR</span> CR Industries LLC</div>
+                <p class="footer-tagline">A tiny independent studio building fast, privacy-first apps for Apple platforms.</p>
             </div>
             <div class="footer-col">
                 <h4>Company</h4>
                 <a href="index.html#products">Products</a>
+                <a href="index.html#studio">Studio</a>
                 <a href="support.html">Support</a>
                 <a href="index.html#contact">Contact</a>
             </div>
@@ -122,9 +149,10 @@
         </div>
         <div class="footer-bottom">
             <p>&copy; 2026 CR Industries LLC. All rights reserved.</p>
-            <p><a href="mailto:info@crindustries.xyz" style="color:var(--text-secondary);text-decoration:none;">info@crindustries.xyz</a></p>
+            <p><a href="mailto:info@crindustries.xyz">info@crindustries.xyz</a></p>
         </div>
     </footer>
 
+    <script src="app.js" defer></script>
 </body>
 </html>

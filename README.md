@@ -18,7 +18,8 @@ support.html      Company + product support / contact hub
 privacy.html      Website privacy policy (apps have their own)
 terms.html        Website terms of use
 404.html          Not-found page
-styles.css        Shared styles (matches the WhereIsIt design system)
+styles.css        Design system ("cyber-aurora" — bold indie-studio look)
+app.js            Progressive enhancement (scroll reveal, nav shadow) — site works without it
 assets/           favicon + WhereIsIt product screenshots
 CNAME             Custom domain (crindustries.xyz) — do not delete
 .nojekyll         Serve files as-is (skip Jekyll)
